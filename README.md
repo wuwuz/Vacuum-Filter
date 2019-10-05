@@ -24,8 +24,8 @@ make test
 
 Here is a small example of VF's APIs.
 
-```
-VacuumFilter<uint16_t, 16> vf;
+```c++
+VacuumFilter<uint16_t, 16> vf; // vacuum filter with 16-bit fingerprint
 vf.init(n, 4, 400); // vf.init(max_item_numbers, slots per bucket, max_kick_steps)
 vf.insert(999); // vf.insert(item), item is a 64-bit integer
 vf.lookup(999); // true
