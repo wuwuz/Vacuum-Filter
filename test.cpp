@@ -5,7 +5,7 @@
 #include <random>
 #include <ratio>
 #include "./ModifiedCuckooFilter/src/cuckoofilter.h"
-#include "cuckoo.h"
+#include "vacuum.h"
 #include "hashutil.h"
 
 using namespace std;
