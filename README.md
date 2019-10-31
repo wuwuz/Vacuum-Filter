@@ -4,7 +4,9 @@
 
 **Vacuum filter** is an approximate set-membership query data structure based on **cuckoo filter**. Vacuum filters costs the smallest space among all known AMQ data structure (when enabling semi-sorting optimization) and provides higher insertion and lookup throughput in most situations. It also support batch-mode operations that significantly increase the throughput.
 
-Our paper will appear in VLDB 2020. We will release the paper soon.
+Our paper will appear in VLDB 2020.  
+
+**Paper Link:** http://www.vldb.org/pvldb/vol13/p197-wang.pdf
 
 ## Repository Structure
 
